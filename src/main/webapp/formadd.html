@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Add Animal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="formstyles.css" /> 
+
+</head>
+<body class = "add-animal">
+
+	<div class="container">
+		<h2>Add an Animal to the Zoo Database</h2>
+		<form action = "addToDB" method = "POST">
+			<div class="form-group">
+				<label for="Animal Species">Animal Species:</label> <input
+					type="text" class="form-control" name="animal-type"
+					placeholder="Enter species">
+			</div>
+			<div class="form-group">
+				<label for="Animal Name">Animal Name:</label> <input type="text"
+					class="form-control" name="name" placeholder="Enter animal name">
+			</div>
+			<div class="form-group">
+				<label for="Age of Animal">Animal's Age:</label> <input type="text"
+					class="form-control" name="age" placeholder="Enter animal's age">
+			</div>
+			<div class="form-group">
+				<label for="Animal Diet">Animal's Diet:</label> <input type="text"
+					class="form-control" name="diet" placeholder="Enter if animal is a Carnivore, Herbivore, or Omnivore">
+			</div>
+			<button type="submit" class="btn btn-default">Add to List</button>
+		</form>
+	</div>
+
+</body>
+</html>
+

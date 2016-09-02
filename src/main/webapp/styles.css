@@ -1,0 +1,20 @@
+body {
+	background-image:
+		url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEbAkkPL-aHOLg18suXUW0S0k8JxHMcuR6eWO75L2wNWDCOCrR");
+}
+
+caption {
+	font-size: 2em;
+	font-style: bold;
+	text-align: center;
+}
+
+table {
+	background-color: yellow;
+	width: 80%;
+	border: 0.25em solid blue;
+}
+
+th, td {
+	border: 0.13em solid blue;
+}

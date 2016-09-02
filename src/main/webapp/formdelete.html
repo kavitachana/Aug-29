@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Delete Animal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="formstyles.css" />
+
+</head>
+<body class="delete-animal">
+
+	<div class="container">
+		<h2>Delete an Animal from the Zoo Database</h2>
+		<form action="deleteFromDB" method="POST">
+
+			<div class="form-group">
+				<label for="Animal ID">Animal ID to be deleted:</label> <input
+					type="text" class="form-control" name="id"
+					placeholder="Enter the animal id to delete">
+			</div>
+
+			<button type="submit" class="btn btn-default">Delete from
+				List</button>
+		</form>
+	</div>
+
+</body>
+</html>
+
